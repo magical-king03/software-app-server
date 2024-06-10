@@ -8,7 +8,7 @@ const app = express();
 
 // Middleware setup
 app.use(cors({
-    origin: 'http://localhost:3000', // Ensure this matches the origin of your frontend
+    origin: 'https://software-app-client.vercel.app', // Ensure this matches the origin of your frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'], 
     credentials: true, 
 }));
